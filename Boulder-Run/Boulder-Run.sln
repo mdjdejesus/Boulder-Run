@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boulder_Run", "Boulder-Run\Boulder_Run\Boulder_Run.csproj", "{EE410CA6-0B87-4229-97E9-3D4AA0DE19A5}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Boulder_RunContent", "Boulder-Run\Boulder_RunContent\Boulder_RunContent.contentproj", "{C25AF6E9-E595-4597-81D4-B94BFFB9AAAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE410CA6-0B87-4229-97E9-3D4AA0DE19A5}.Debug|x86.ActiveCfg = Debug|x86
+		{EE410CA6-0B87-4229-97E9-3D4AA0DE19A5}.Debug|x86.Build.0 = Debug|x86
+		{EE410CA6-0B87-4229-97E9-3D4AA0DE19A5}.Release|x86.ActiveCfg = Release|x86
+		{EE410CA6-0B87-4229-97E9-3D4AA0DE19A5}.Release|x86.Build.0 = Release|x86
+		{C25AF6E9-E595-4597-81D4-B94BFFB9AAAF}.Debug|x86.ActiveCfg = Debug|x86
+		{C25AF6E9-E595-4597-81D4-B94BFFB9AAAF}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
