@@ -19,9 +19,22 @@ namespace Boulder_Run
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        //Cave Map is 40 X 22 in tiles---each tile is 32x32 pixels
+        private Vector2 tileDimensions = new Vector2 (32,32);
+        private Vector2 caveDimensions = new Vector2 (40,22);
+        private int Height;
+        private int Width;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+
+            Height = (int) (caveDimensions.Y * tileDimensions.Y);
+            Width = (int)(caveDimensions.X * tileDimensions.X);
+            
+            graphics.PreferredBackBufferWidth = Width;
+            graphics.PreferredBackBufferHeight = Height;
+
             Content.RootDirectory = "Content";
         }
 
